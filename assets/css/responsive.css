@@ -1,0 +1,341 @@
+/* mobile and tablet */
+@media (max-width: 1023px) {
+    .hide-on-MT {
+        display: none !important;
+    }
+
+    #menu {
+        width: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-menu {
+        width: 100%;
+    }
+
+    .logo {
+        width: 36px;
+        margin: 17px 0;
+    }
+
+    .main-menu-list::after {
+        width: 100%;
+        margin: 16px 0 0 0;   
+    }
+
+    .main-menu-item {
+        padding: 20px 24px;
+    }
+
+    .sub-menu-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-library-list {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-library-item img {
+        margin: 0;
+    }
+
+    .menu-library-item {
+        margin-bottom: 6px;
+    }
+
+    .sub-menu-item {
+
+        padding: 20px 24px;
+    }
+
+    .menu-nav {
+        height: calc(100vh - 540px);
+    }
+
+    .menu-create-playlist {
+        border: none;
+        width: 70px;
+    }
+
+    .sub-menu-item i {
+        margin: 0;
+    }
+
+    .mmenu-library-item:first-child ,
+    .menu-buy-vip-item,
+    .menu-recently-item,
+    .sub-menu-item span,
+    .menu-library-item span,
+    .main-menu-item span {
+        display: none;
+    }
+
+
+
+}
+
+/* mobile */
+@media (max-width: 740px) {
+    .hide-on-moblie {
+        display: none !important;
+    }
+    
+    #container {
+        padding-left: 0;
+    }
+
+    .container-nav {
+        width: 100%;
+    }
+
+    .overal-content-songs-img {
+        display: none;
+    }
+
+    .overal-content-songs {
+        width: 100%;
+    }
+
+    .container-content-header-btn {
+        display: none;
+    }
+
+    #menu {
+        padding: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        top: auto;
+        height: 50px;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    .main-menu-list {
+        display: flex;
+    }
+
+    .main-menu-item {
+        width: 20%;
+        border: none !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-menu-item i {
+        padding: 0;
+        margin: 0;
+        transform: translateY(-3px);
+    }
+
+    .songs-heading-playall-btn,
+    .main-music-player-song-follower,
+    .main-music-player-song-container,
+    .zingchart-item-note,
+    .player-option-container,
+    .zingchart-rank-status-up,
+    .zingchart-rank-status-down,
+    .zingchart-rank-status-new,
+    .main-menu-list::after,
+    .menu-nav {
+        display: none;
+    }
+
+    .music-player {
+        bottom: 50px;
+        right: 0;
+        left: 0;
+        height: 54px;
+    }
+
+    .music-player-block {
+        height: 100%;
+    }
+
+    .player-song-img {
+        height: 36px;
+        width: 36px;
+    }
+
+    .player-song,
+    .zingchart-item-header {
+        width: auto;
+    }
+
+    .music-control-song,
+    .music-control-song {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .wide-50 {
+        margin: 0 20px;
+    }
+
+    .main-content-nav-item {
+        padding: 5px 18px;
+    }
+
+    .songs-heading-playall-btn {
+        padding: 5px 20px;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .overal-content-songs-block {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .player-btn-control-btn {
+        display: flex;
+        justify-content: end;
+    }
+
+    .content-header-user-name {
+        font-size: 2.2rem;
+        margin-top: 24px;
+    }
+
+    .main-content-nav {
+        padding-top: 90px;
+    }
+
+    .radio-trending-podcast {
+        flex-wrap: wrap;
+    }
+
+    .radio-trending-podcast-left {
+        margin-bottom: 20px;
+    }
+
+    .main-music-player-song-info {
+        width: 100%;
+    }
+
+    .main-music-player-song-img-wrap {
+        padding-top: 10px;
+        width: 70%;
+    }
+
+    .main-music-player-song-info-wrap {
+        width: 90%;
+    }
+
+    .player-control.main-player-control-btn{
+        width: 100%;
+    }
+
+    .player-btn-control-btn.main-player-control-btn {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+
+    .player-control-progress.main-player-control-btn {
+        margin: 30px 0 20px 0;
+    } 
+
+    .main-music-player {
+        bottom: 0;
+        z-index: 100000000;
+    }
+    .main-music-player-song-btn {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .container-nav-btn-item.main-player-control-btn {
+        margin: 0;
+    }
+
+    .main-music-player-song-btn {
+        margin-top: 30px;
+    }
+
+    .main-music-player-content {
+        height: 100%;
+    }
+
+    .music-control-song.no-background {
+        background-color: transparent;
+    }
+
+    .player-song-info-title.limit-width {
+        width: 130px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .player-song-info-author.limit-width {
+        width: 100px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .container-nav-search-input-input-form {
+        width: 160px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        padding-right: 20px;
+    }
+}
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    #container {
+        padding-left: 70px;
+    }
+    .container-nav {
+        width: calc(100% - 70px);
+    }
+
+    .content-header-btn-buy-vip,
+    .overal-content-songs-item-stt {
+        display: none;
+    }
+
+    .main-content-nav-item {
+        padding: 5px 24px;
+    }
+    
+    .hide-on-tablet {
+        display: none !important;
+    }
+
+    .overal-content-songs {
+        padding-top: 20px;
+    }
+
+    .songs-heading-upload-btn {
+        display: none;
+    }
+
+    .main-content-nav {
+        padding-bottom: 50px;
+    }
+
+}
+
+/* > PC low resolution */
+@media (min-width: 1023px) and (max-width: 1239px) {
+    .overal-content-songs-item-stt span {
+        display: none;
+    }
+}
+
+/* pc */
+@media (min-width: 1023px) {
+    .hide-on-pc {
+        display: none;
+    }
+}
